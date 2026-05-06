@@ -5,7 +5,7 @@ tipo_operacion = input("1. suma 2. resta 3.multipliacion 4.division ")
 suma = a + b
 resta = a - b
 multiplicacion = a * b
-division = a / b
+
 
 if tipo_operacion == "suma":
     print(f"el resultado es {suma}")
@@ -14,6 +14,10 @@ elif tipo_operacion == "resta":
 elif tipo_operacion == "multiplicacion":
     print(f"el resultado es {multiplicacion}")
 elif tipo_operacion == "division":
-    print(f"el resultado es {division}")
+    if(b == 0):
+        print("Error: no se puede dividr por cero")   
+    else:
+        division = a / b
+    
 else: 
     print("dato incorrecto")

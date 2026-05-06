@@ -1,3 +1,4 @@
+#Declaracion de Variables
 nombre = "Brayan Steven"
 apellido = "Perez Alarcon"
 edad = 18
